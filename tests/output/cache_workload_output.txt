@@ -1,0 +1,21 @@
+memsim> Initialized memory 8192 bytes
+memsim> Initialized L1 cache: size=32768 block=64 assoc=4 policy=FIFO
+memsim> Initialized L2 cache: size=262144 block=64 assoc=8 policy=FIFO
+memsim> Access 0x40 -> phys=0x40 [MEMORY | 100 cycles]
+memsim> Access 0x40 -> phys=0x40 [L1_HIT | 1 cycles]
+memsim> Access 0x140 -> phys=0x140 [MEMORY | 100 cycles]
+memsim> Access 0x40 -> phys=0x40 [L1_HIT | 1 cycles]
+memsim> Cache accesses=4 hits=2 hit_ratio=0.5 total_latency=202 avg_latency=50.5
+Cache accesses=2 hits=0 hit_ratio=0 total_latency=200 avg_latency=100
+memsim> Total memory: 8192 bytes
+Used memory: 0 bytes
+Free memory: 8192 bytes
+Internal fragmentation: 0 bytes
+External fragmentation: 0.0%
+Allocation success rate: 0/0
+Memory utilization: 0.0%
+Total: 8192 Used: 0 Allocations: 0
+Cache accesses=4 hits=2 hit_ratio=0.5 total_latency=202 avg_latency=50.5
+Cache accesses=2 hits=0 hit_ratio=0.0 total_latency=200 avg_latency=100.0
+Page hits=0 faults=0
+memsim> 

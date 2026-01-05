@@ -1,0 +1,17 @@
+memsim> Initialized memory 1024 bytes
+memsim> Allocated block id=1
+memsim> Allocated block id=2
+memsim> Allocated block id=3
+memsim> Block 2 freed
+memsim> Total memory: 1024 bytes
+Used memory: 150 bytes
+Free memory: 874 bytes
+Internal fragmentation: 0 bytes
+External fragmentation: 22.9%
+Allocation success rate: 3/3
+Memory utilization: 14.6%
+Total: 1024 Used: 0 Allocations: 0
+Cache accesses=0 hits=0 hit_ratio=0.0 total_latency=0 avg_latency=0.0
+Cache accesses=0 hits=0 hit_ratio=0.0 total_latency=0 avg_latency=0.0
+Page hits=0 faults=0
+memsim>

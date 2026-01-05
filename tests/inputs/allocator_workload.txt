@@ -1,0 +1,7 @@
+init memory 1024
+malloc 100
+malloc 200
+malloc 50
+free 2
+stats
+exit

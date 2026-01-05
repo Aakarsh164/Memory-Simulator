@@ -1,0 +1,8 @@
+init memory 4096
+vm init 16bit 1KB 4KB
+vm access 0x0
+vm access 0x400
+vm access 0x800
+vm access 0x0
+vm stats
+exit

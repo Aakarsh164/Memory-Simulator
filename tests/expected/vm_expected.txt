@@ -1,0 +1,8 @@
+memsim> Initialized memory 4096 bytes
+memsim> VM initialized: virt=65536 page=1024 phys=4096
+memsim> VM page fault
+memsim> VM: vaddr=0x400 -> paddr=1024
+memsim> VM: vaddr=0x800 -> paddr=2048
+memsim> VM page fault
+memsim> Page hits=1 faults=3
+memsim>

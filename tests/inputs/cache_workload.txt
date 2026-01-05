@@ -1,0 +1,10 @@
+init memory 8192
+set cache l1 32KB 64B 4 FIFO
+set cache l2 256KB 64B 8 FIFO
+cache access 0x40
+cache access 0x40
+cache access 0x140
+cache access 0x40
+cache stats
+stats
+exit
