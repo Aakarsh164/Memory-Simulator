@@ -1,0 +1,4 @@
+init memory 2048
+set cache l1 512 64 4 lru
+access 0x0000
+exit

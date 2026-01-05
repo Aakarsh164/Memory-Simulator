@@ -1,0 +1,9 @@
+init memory 1024
+set allocator worst_fit
+malloc 100
+malloc 200
+free 1
+malloc 50
+dump memory
+stats
+exit

@@ -1,0 +1,37 @@
+init memory 4096
+set allocator first_fit
+malloc 256
+malloc 512
+malloc 128
+free 1
+malloc 100
+dump memory
+stats
+set allocator best_fit
+malloc 200
+dump memory
+set allocator worst_fit
+malloc 300
+dump memory
+set allocator buddy
+malloc 512
+malloc 256
+malloc 64
+free 1
+dump buddy
+stats
+set cache l1 1024 64 4 lru
+set cache l2 2048 64 8 lru
+access 0x0000
+access 0x0040
+access 0x0080
+access 0x0100
+access 0x0000
+access 0x0040
+stats
+vm init 8192 512 2048
+vm access 0x0400
+vm access 0x0800
+vm access 0x0400
+stats
+exit

@@ -1,0 +1,11 @@
+init memory 2048
+set cache l1 512 64 4 lru
+set cache l2 1024 64 8 lru
+access 0x0000
+access 0x0040
+access 0x0080
+access 0x0000
+access 0x0100
+access 0x0000
+stats
+exit

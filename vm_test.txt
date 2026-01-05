@@ -1,0 +1,6 @@
+vm init 16 1024
+vm access 0x0001
+vm access 0x1001
+vm access 0x0001
+vm stats
+exit

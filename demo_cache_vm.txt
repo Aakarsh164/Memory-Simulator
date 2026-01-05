@@ -1,0 +1,13 @@
+init memory 1024
+set allocator first_fit
+set cache l1 512 64 4 fifo
+set vm 4096 256 512
+malloc 100
+malloc 150
+access 100
+access 200
+access 100
+access 300
+dump memory
+stats
+exit

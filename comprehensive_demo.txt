@@ -1,0 +1,35 @@
+init memory 2048
+set allocator first_fit
+malloc 100
+malloc 200
+malloc 150
+free 1
+dump memory
+stats
+set allocator best_fit
+malloc 80
+dump memory
+stats
+set allocator worst_fit
+malloc 120
+dump memory
+stats
+set allocator buddy
+malloc 128
+malloc 256
+free 1
+stats
+dump buddy
+set cache l1 512 64 4 fifo
+access 0
+access 128
+access 256
+access 128
+stats
+set vm 4096 256 1024
+access 1024
+access 1280
+access 2048
+access 1024
+stats
+exit

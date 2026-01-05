@@ -1,0 +1,3 @@
+init memory 2048
+stats
+exit
